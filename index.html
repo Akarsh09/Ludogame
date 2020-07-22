@@ -8,35 +8,39 @@
     <body>
 <div class="container">
     <h1>FUN ACADEMY</h1>
+    <script>
+            var person=prompt("Enter 1st player");
+            var person2=prompt("Enter 2nd player");
+           
+        </script>
     <div class="dice">
-        <p>Player 1</p>
+        <p id="player1"></p>
         <img src="images/dice1.png" id="check1">
 
 
     </div>
     <div class="dice">
-            <p>Player 2</p>
+            <p id="player2"></p>
             <img src="images/dice2.png" id="check2">
             
     
         </div>
         <div>
-            <script>
-                var person=prompt("Enter 1st player");
-                var person2=prompt("Enter 2nd player");
-               
-            </script>
+            
              <button onclick="lg1()">Lets play!</button>
       
         </div>
+       
      
 
 </div>
 <script>
     lg1=()=>{
    
-  
-  
+        document.getElementById('player1').innerHTML=`${person} `;
+        
+        document.getElementById('player2').innerHTML=`${person2} `;
+      
    
 
     const play1=Math.floor(Math.random()*6)+1;
