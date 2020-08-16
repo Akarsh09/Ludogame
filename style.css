@@ -101,3 +101,40 @@ img{
     
     }
 } 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: yellow;
+      
+     
+    }
+    h1{
+        margin:30px;
+        text-shadow:5px 5px white;
+        font-size: 5rem;
+        color:#f6b93b;
+    
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    body {
+      background-color: orangered;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: orange;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    body {
+      background-color: black;
+    }
+  }
+  
+ 
+
