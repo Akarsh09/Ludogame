@@ -40,3 +40,13 @@ img{
     width:85%;
 
 }
+@viewport
+{
+    zoom:1.0;
+    width:extend-to-zoom;
+}
+@-ms-viewport
+{
+    zoom:1.0;
+    width:extend-to-zoom;
+}
